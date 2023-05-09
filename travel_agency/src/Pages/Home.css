@@ -1,0 +1,36 @@
+.banner{
+    margin: auto;
+    margin-top: 20px;
+    /* border: 2px solid black; */
+    position: relative;
+    width: 90%;
+}
+.banner img{
+    margin: auto;
+    width: 100%;
+    height: 600px;
+    border-radius: 10px ;
+}
+
+.dest{
+    /* color: ; */
+    /* width: 300px;  */
+     margin-right: 930px;
+    margin-top: 20px;
+    /* text-align: center;
+    margin: "auto"; */
+}
+.dest h1{
+    font-size: 40px;
+    font-weight: 700;
+}
+.dest p{
+    font-size: 14px;
+    margin-right: -230px;
+}
+.p1{
+    margin-right: 70px;
+}
+.p2{
+    margin-right: 100px;
+}
