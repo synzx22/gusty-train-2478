@@ -1,0 +1,255 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "category": "JAPAN",
+      "image": "https://assets.traveltriangle.com/blog/wp-content/uploads/2018/02/hokkaido.jpg",
+      "price": 15000,
+      "rating": {
+        "rate": 4.7
+      }
+    },
+    {
+      "id": 2,
+      "category": "JAPAN",
+      "image": "https://assets.traveltriangle.com/blog/wp-content/uploads/2018/02/mt.-fuji.jpg",
+      "price": 16000,
+      "rating": {
+        "rate": 4.7
+      }
+    },
+    {
+      "id": 3,
+      "category": "JAPAN",
+      "image": "https://assets.traveltriangle.com/blog/wp-content/uploads/2018/02/Nara1.jpg",
+      "price": 17000,
+      "rating": {
+        "rate": 4.7
+      }
+    },
+    {
+      "id": 4,
+      "category": "JAPAN",
+      "image": "https://assets.traveltriangle.com/blog/wp-content/uploads/2018/02/Kyoto1.jpg",
+      "price": 18000,
+      "rating": {
+        "rate": 4.7
+      }
+    },
+    {
+      "id": 5,
+      "category": "JAPAN",
+      "image": "https://assets.traveltriangle.com/blog/wp-content/uploads/2019/09/Cover-Japan-Road-Trips0310.jpg",
+      "price": 19000,
+      "rating": {
+        "rate": 4.7
+      }
+    },
+    {
+      "id": 6,
+      "category": "JAPAN",
+      "image": "https://assets.traveltriangle.com/blog/wp-content/uploads/2018/02/Ishigaki1.jpg",
+      "price": 20000,
+      "rating": {
+        "rate": 4.7
+      }
+    },
+    {
+      "id": 7,
+      "category": "USA",
+      "image": "https://img.traveltriangle.com/blog/wp-content/uploads/2019/07/New-York-cover-400x230.jpg",
+      "price": 15500,
+      "rating": {
+        "rate": 4.7
+      }
+    },
+    {
+      "id": 8,
+      "category": "USA",
+      "image": "https://img.traveltriangle.com/blog/wp-content/uploads/2018/10/cover-for-theme-places-in-new-york-400x267.jpg",
+      "price": 21000,
+      "rating": {
+        "rate": 4.7
+      }
+    },
+    {
+      "id": 9,
+      "category": "USA",
+      "image": "https://img.traveltriangle.com/blog/wp-content/uploads/2018/02/shutterstock_522951964-400x261.jpg",
+      "price": 32000,
+      "rating": {
+        "rate": 4.7
+      }
+    },
+    {
+      "id": 10,
+      "category": "USA",
+      "image": "https://img.traveltriangle.com/blog/wp-content/uploads/2019/05/Hiking-Near-New-York-cover-400x267.jpg",
+      "price": 25000,
+      "rating": {
+        "rate": 4.7
+      }
+    },
+    {
+      "id": 11,
+      "category": "USA",
+      "image": "https://img.traveltriangle.com/blog/wp-content/uploads/2018/10/Romantic-Places-In-New-York-Cover-400x267.jpg",
+      "price": 27000,
+      "rating": {
+        "rate": 4.7
+      }
+    },
+    {
+      "id": 12,
+      "category": "USA",
+      "image": "https://img.traveltriangle.com/blog/wp-content/uploads/2018/05/coney-island-cover1-400x266.jpg",
+      "price": 22000,
+      "rating": {
+        "rate": 4.7
+      }
+    },
+    {
+      "id": 13,
+      "category": "INDIA",
+      "image": "https://assets.traveltriangle.com/blog/wp-content/uploads/2015/01/coorg-reviews-tourist-places-tourist-destinations-400x237.jpg",
+      "price": 21000,
+      "rating": {
+        "rate": 4.7
+      }
+    },
+    {
+      "id": 14,
+      "category": "INDIA",
+      "image": "https://img.traveltriangle.com/blog/wp-content/uploads/2017/11/Cover9-400x249.jpg",
+      "price": 9000,
+      "rating": {
+        "rate": 4.7
+      }
+    },
+    {
+      "id": 15,
+      "category": "INDIA",
+      "image": "https://img.traveltriangle.com/blog/wp-content/uploads/2017/09/Rangerwood-Machan-Kerala-BB41020171-400x241.jpg",
+      "price": 14000,
+      "rating": {
+        "rate": 4.7
+      }
+    },
+    {
+      "id": 16,
+      "category": "INDIA",
+      "image": "https://img.traveltriangle.com/blog/wp-content/uploads/2017/06/A-pool-by-one-of-the-cottages-at-Aryan-Eco-Homestay-in-Gujarat-ss28062017-400x250.jpg",
+      "price": 18000,
+      "rating": {
+        "rate": 4.7
+      }
+    },
+    {
+      "id": 17,
+      "category": "INDIA",
+      "image": "https://images.pexels.com/photos/1603650/pexels-photo-1603650.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "price": 12500,
+      "rating": {
+        "rate": 4.7
+      }
+    },
+    {
+      "id": 18,
+      "category": "INDIA",
+      "image": "https://assets.traveltriangle.com/blog/wp-content/uploads/2016/11/Udaivilas-romantic-400x250.jpg",
+      "price": 11500,
+      "rating": {
+        "rate": 4.7
+      }
+    },
+    {
+      "id": 19,
+      "category": "INDIA",
+      "image": "https://assets.traveltriangle.com/blog/wp-content/uploads/2016/08/Untitled-design-151.jpg",
+      "price": 11000,
+      "rating": {
+        "rate": 4.7
+      }
+    },
+    {
+      "id": 20,
+      "category": "INDIA",
+      "image": "https://img.traveltriangle.com/blog/wp-content/uploads/2021/10/Best-Luxury-Resorts-In-India-400x229.jpg",
+      "price": 10000,
+      "rating": {
+        "rate": 4.7
+      }
+    },
+    {
+      "id": 21,
+      "category": "DUBAI",
+      "image": "https://img.traveltriangle.com/blog/wp-content/uploads/2019/07/IMG-20190626-WA00211-400x267.jpg",
+      "price": 65000,
+      "rating": {
+        "rate": 4.7
+      }
+    },
+    {
+      "id": 22,
+      "category": "DUBAI",
+      "image": "https://img.traveltriangle.com/blog/wp-content/uploads/2019/08/Cover-Theme-Parks-In-Dubai0310-400x229.jpg",
+      "price": 70000,
+      "rating": {
+        "rate": 4.7
+      }
+    },
+    {
+      "id": 23,
+      "category": "DUBAI",
+      "image": "https://img.traveltriangle.com/blog/wp-content/uploads/2017/10/View-from-Armani-Amal-Restaurant-in-Dubai-OG-ss28102017-400x209.jpg",
+      "price": 55000,
+      "rating": {
+        "rate": 4.7
+      }
+    },
+    {
+      "id": 24,
+      "category": "DUBAI",
+      "image": "https://img.traveltriangle.com/blog/wp-content/uploads/2017/09/aquaventure-parmk1-400x266.jpg",
+      "price": 48000,
+      "rating": {
+        "rate": 4.7
+      }
+    },
+    {
+      "id": 25,
+      "category": "DUBAI",
+      "image": "https://img.traveltriangle.com/blog/wp-content/uploads/2019/03/Dubai-cover_11th-Mar-400x229.jpg",
+      "price": 50000,
+      "rating": {
+        "rate": 4.7
+      }
+    },
+    {
+      "id": 26,
+      "category": "DUBAI",
+      "image": "https://img.traveltriangle.com/blog/wp-content/uploads/2019/12/cover-for-Holiday-Homes-In-Dubai_6th-dec-400x229.jpg",
+      "price": 45000,
+      "rating": {
+        "rate": 4.7
+      }
+    }
+  ],
+  "Users": [
+    {
+      "id": 1,
+      "email": "a@gmail.com",
+      "password": "agmail"
+    },
+    {
+      "id": 2,
+      "email": "synz@gmail.com",
+      "password": "Synz"
+    },
+    {
+      "id": 3,
+      "email": "kamran@gmail.com",
+      "password": "kamran"
+    }
+  ]
+}
