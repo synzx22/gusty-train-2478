@@ -19,8 +19,6 @@ const ApiUrl = (filterByCategory,orderBy) => {
     return `http://localhost:3000/products`
    }
   
-   return `http://localhost:3000/products`;
-  
   };
 
 function Destination(){
