@@ -26,7 +26,7 @@ import {
     const handleSubmit = async (e) => {
       e.preventDefault()
   
-      const fetchdata = await fetch(`http://localhost:3000/users`);
+      const fetchdata = await fetch(`https://tavel-agency-ba6u.onrender.com/Users`);
       const data = await fetchdata.json();
       const user = data;
       console.log(user)

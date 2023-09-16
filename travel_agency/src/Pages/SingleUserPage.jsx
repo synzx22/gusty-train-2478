@@ -16,7 +16,7 @@ const SingleUserPage = () => {
 
   const fetchdata = async () => {
     try {
-      let data = await getdata(`http://localhost:3000/products/${user_id}`);
+      let data = await getdata(`https://tavel-agency-ba6u.onrender.com/products/${user_id}`);
       setRes(data);
     } catch (error) {
       console.log(error)

@@ -3,7 +3,7 @@ import Footer from "../component/Footer"
 import {Link} from "react-router-dom"
 const ApiUrl = (filterByCategory,orderBy) => {
 
-    let url=`http://localhost:3000/products` ;
+    let url=`https://tavel-agency-ba6u.onrender.com/products` ;
      
    let filterdata=`category=${filterByCategory}`
      const sort = "price"
@@ -16,7 +16,7 @@ const ApiUrl = (filterByCategory,orderBy) => {
     }
    
    else{
-    return `http://localhost:3000/products`
+    return `https://tavel-agency-ba6u.onrender.com/products`
    }
   
   };
