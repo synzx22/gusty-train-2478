@@ -1,62 +1,60 @@
 import {
-    Flex,
-    Box,
-    FormControl,
-    FormLabel,
-    Input,
-    Checkbox,
-    Stack,
-    Link,
-    Button,
-    Heading,
-    Text,
-    useColorModeValue,
-  } from "@chakra-ui/react";
-  import { useContext, useState } from "react";
-  import { AuthContext } from "../Context/AuthContextProvider";
-  import { useNavigate } from "react-router-dom";
-  
-  export default function Login() {
-    const [username, setUsername] = useState("kamran@gmail.com");
-    const [password, setPassword] = useState("kamran");
-    const [status, setStatus] = useState("");
-    const { Login,IsAuth } = useContext(AuthContext);
-    const navigate = useNavigate();
-  
-    const handleSubmit = async (e) => {
-      e.preventDefault()
-  
-      const fetchdata = await fetch(`https://tavel-agency-ba6u.onrender.com/Users`);
-      const data = await fetchdata.json();
-      const user = data;
-      console.log(user)
-      const users = user.find(
-        (user) => user.email === username && user.password === password
-      );
-  
-      if (users) {
-        Login(users)
-        
-      } else {
-        setStatus(false);
-      }
-  
-      if(Login){
-        navigate('/destination')
-      }
-    };
-  
-  
-    
-  
-    return (
-      <Flex
-        minH={"100vh"}
-        align={"center"}
-        justify={"center"}
-        bg={useColorModeValue("gray.50", "gray.800")}
-      >
-        <Stack spacing={8} mx={"auto"} maxW={"lg"} py={12} px={6}>
+  Flex,
+  Box,
+  FormControl,
+  FormLabel,
+  Input,
+  Checkbox,
+  Stack,
+  Link,
+  Button,
+  Heading,
+  Text,
+  useColorModeValue,
+} from "@chakra-ui/react";
+import { useContext, useState } from "react";
+import { AuthContext } from "../Context/AuthContextProvider";
+import { useNavigate } from "react-router-dom";
+
+export default function Login() {
+  const [username, setUsername] = useState("kamran@gmail.com");
+  const [password, setPassword] = useState("kamran");
+  const [status, setStatus] = useState("");
+  const { Login, IsAuth } = useContext(AuthContext);
+  const navigate = useNavigate();
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+
+    const fetchdata = await fetch(
+      `https://tavel-agency-ba6u.onrender.com/Users`
+    );
+    const data = await fetchdata.json();
+    const user = data;
+    console.log(user);
+    const users = user.find(
+      (user) => user.email === username && user.password === password
+    );
+
+    if (users) {
+      Login(users);
+    } else {
+      setStatus(false);
+    }
+
+    if (Login) {
+      navigate("/destination");
+    }
+  };
+
+  return (
+    <Flex
+      minH={"100vh"}
+      align={"center"}
+      justify={"center"}
+      bg={useColorModeValue("gray.50", "gray.800")}
+    >
+      <Stack spacing={8} mx={"auto"} maxW={"lg"} py={12} px={6}>
         <Stack align={"center"}>
           <Heading fontSize={"4xl"}>Sign in to your account</Heading>
           <Text fontSize={"lg"} color={"gray.600"}>
